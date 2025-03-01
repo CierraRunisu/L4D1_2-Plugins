@@ -14,7 +14,7 @@ Define map transitions to combine campaigns in versus
 		// Change map to c7m1_docks when versus second round ends in c6m2_bedlam
 		sm_add_map_transition c6m2_bedlam c7m1_docks
 
-		// Change map to c9m2_lots when versus second round ends in c14m1_junkyard
+		// Change map to c14m1_junkyard when versus second round ends in c9m2_lots
 		sm_add_map_transition c9m2_lots c14m1_junkyard
 		```
 </details>
@@ -22,13 +22,15 @@ Define map transitions to combine campaigns in versus
 * Require | 必要安裝
 	1. [left4dhooks](https://forums.alliedmods.net/showthread.php?t=321696)
 	2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+	3. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
+		* 修復手動更換地圖會遇到的問題
+	4. [l4d2_transition_info_fix](/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
+		* 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
 
-* <details><summary>Recommand Install | 推薦安裝</summary>
+* <details><summary>Support | 支援插件</summary>
 
-	1. [l4d2_fix_changelevel](https://github.com/Target5150/MoYu_Server_Stupid_Plugins/tree/master/The%20Last%20Stand/l4d2_fix_changelevel): Fix issues due to forced changelevel.
-		> 修復手動更換地圖會遇到的問題
-	2. [l4d2_transition_info_fix](/l4d2_transition_info_fix): Fix issues after map transitioned, transition info is still retaining when changed new map by other ways.
-		> 修復中途換地圖的時候(譬如使用Changelevel指令)，會遺留上次的過關保存設定，導致滅團後倖存者被傳送到安全室之外或死亡
+	1. [l4d2_mixmap](/l4d2_mixmap): Randomly select five maps for versus/coop/realism. Adding for fun
+		* 隨機抽取五個關卡組成一張地圖，適用於戰役/對抗/寫實，依一定順序切換地圖來進行遊戲，增加遊戲的趣味性
 </details>
 
 * <details><summary>Command | 命令</summary>
@@ -50,7 +52,7 @@ Define map transitions to combine campaigns in versus
 * <details><summary>Changelog | 版本日誌</summary>
 
 	* v1.0h (2025-1-30)
-		* API & Native
+		* Add API & Native
 
 	* Original
 		* [SirPlease/L4D2-Competitive-Rework](https://github.com/SirPlease/L4D2-Competitive-Rework/blob/master/addons/sourcemod/scripting/l4d2_map_transitions.sp)

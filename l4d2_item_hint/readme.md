@@ -1,6 +1,11 @@
 # Description | 內容
 When using 'Look' in vocalize menu, print corresponding item to chat area and make item glow or create spot marker/infeced maker like back 4 blood.
 
+* Apply to | 適用於
+    ```
+    L4D2
+    ```
+
 * [Video | 影片展示](https://youtu.be/YkMDgmmoyts)
 
 * Image | 圖示
@@ -13,11 +18,6 @@ When using 'Look' in vocalize menu, print corresponding item to chat area and ma
     <br/>![l4d2_item_hint_4](image/l4d2_item_hint_4.jpg)
     * Mark your teammates (標記隊友)
     <br/>![l4d2_item_hint_5](image/l4d2_item_hint_5.jpg)
-
-* Apply to | 適用於
-    ```
-    L4D2
-    ```
 
 * <details><summary>How does it work?</summary>
 
@@ -32,6 +32,12 @@ When using 'Look' in vocalize menu, print corresponding item to chat area and ma
 * Require | 必要安裝
     1. [Use Priority Patch](https://forums.alliedmods.net/showthread.php?t=327511)
     2. [[INC] Multi Colors](https://github.com/fbef0102/L4D1_2-Plugins/releases/tag/Multi-Colors)
+
+* <details><summary>Support | 支援插件</summary>
+
+	1. [Lux's Model Changer](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/Luxs-Model-Changer): LMC Allows you to use most models with most characters
+		* 可以自由變成其他角色或NPC的模組
+</details>
 
 * <details><summary>Important</summary>
 
@@ -226,6 +232,9 @@ When using 'Look' in vocalize menu, print corresponding item to chat area and ma
 </details>
 
 * <details><summary>Changelog | 版本日誌</summary>
+
+    * v3.6 (2025-2-23)
+        * Support LMC (Lux's Model Changer)
 
     * v3.5 (2024-6-22)
         * Update cvars

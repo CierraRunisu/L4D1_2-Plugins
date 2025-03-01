@@ -257,6 +257,12 @@ Help server to record, make server more fun, and more useful plugins for adm.
     * 修復有時候救援房間沒有看到倖存者的光圈
 * <b>[l4d2_map_transitions](/l4d2_map_transitions)</b>: Define map transitions to combine campaigns in versus
     * 對抗模式第二回合結束時從地圖A切換成地圖B
+* <b>[Luxs-Model-Changer](/Luxs-Model-Changer)</b>: LMC Allows you to use most models with most characters
+    * 可以自由變成其他角色或NPC的模組
+* <b>[miuwiki_autoscar](/miuwiki_autoscar)</b>: Full auto mode for SCAR
+    * SCAR三連發步槍可以切換成全自動模式
+* <b>[l4d_save_weapon_ammo](/l4d_save_weapon_ammo)</b>: Prevent filling the clip when taking the same weapon + save if the amount of weapon ammo is more than vanilla.
+    * 撿起的武器時不會有滿發的彈夾 + 儲存在地上的每個武器的彈藥，撿起來後給予相應的彈藥 (為了應付超出官方指令設定的彈藥)
 
 # Scripting Compiler
 * [sourcemod v1.11 compiler](https://www.sourcemod.net/downloads.php?branch=1.11-dev): scripting folder
